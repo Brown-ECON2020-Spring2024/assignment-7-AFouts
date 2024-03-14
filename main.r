@@ -15,3 +15,6 @@ source("./code/make_figures.r")
 ## Run Tests
 testthat::local_edition(3)
 testthat::test_dir("tests")
+
+# Not all the tests work, I fix the comparison level for the coefficient value.
+

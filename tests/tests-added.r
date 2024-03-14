@@ -20,3 +20,4 @@ test_that("3. Data validation", {
             ),
         TRUE) # I had built that test before seeing the comment on testdat, I keep it because I find it fun!!
 })
+
