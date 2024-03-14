@@ -1,5 +1,5 @@
 test_that("1. Is the estimated coefficient for “gdpPercap” in the linear regression model equal to 0.00076?", {
-    testthat::expect_equal(unname(coef(model)[2]), 0.00079, tolerance = 0.00001)
+    testthat::expect_equal(unname(coef(model)[2]), 0.00076, tolerance = 0.00001)
 })
 
 test_that("2. Is the number of observations in our model equal to 1704?", {
